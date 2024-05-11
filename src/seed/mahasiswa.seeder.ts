@@ -10,7 +10,7 @@ seederSource
   .then(async () => {
     const repository = seederSource.getRepository(Mahasiswa);
 
-    for (let i = 0; i < 30; i++) {
+    for (let i = 0; i < 150; i++) {
       await repository.save({
         nama: faker.person.fullName(),
         nim: generateStudentID(),

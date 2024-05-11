@@ -16,8 +16,3 @@ export function generateStudentID() {
 
     return `${year}${departmentCode}${sequenceCode}${randomCode}`;
 }
-
-// Generate and print 10 random student IDs
-for (let i = 0; i < 10; i++) {
-    console.log(generateStudentID());
-}

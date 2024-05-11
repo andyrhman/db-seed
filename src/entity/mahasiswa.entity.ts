@@ -2,7 +2,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 export enum JenisKelamin {
   laki_laki = "laki-laki",
-  perempuan = "peremuan",
+  perempuan = "perempuan",
 }
 
 @Entity("mahasiswa")
