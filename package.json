@@ -1,0 +1,28 @@
+{
+  "name": "seed-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "chcp 65001 && ts-node src/index.ts",
+    "seed:users": "chcp 65001 && ts-node src/seed/user.seeder.ts",
+    "seed:mahasiswa": "chcp 65001 && ts-node src/seed/mahasiswa.seeder.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.7",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.0.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  }
+}
