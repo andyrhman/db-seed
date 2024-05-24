@@ -5,7 +5,8 @@
   "scripts": {
     "start": "chcp 65001 && ts-node src/index.ts",
     "seed:users": "chcp 65001 && ts-node src/seed/user.seeder.ts",
-    "seed:mahasiswa": "chcp 65001 && ts-node src/seed/mahasiswa.seeder.ts"
+    "seed:mahasiswa": "chcp 65001 && ts-node src/seed/mahasiswa.seeder.ts",
+    "seed:barang": "chcp 65001 && ts-node src/seed/barang.seeder.ts"
   },
   "keywords": [],
   "author": "",
